@@ -1,7 +1,7 @@
 import React from 'react';
 import render from 'react-test-renderer';
 import Header from '../../components/header/header.js';
-import { isMainThread } from 'worker_threads';
+// import { isMainThread } from 'worker_threads';
 
 describe("<Header />", () => {
   it('is rendered at application start', () => {

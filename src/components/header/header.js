@@ -15,7 +15,7 @@ class Header extends React.Component {
   render() {
     return (
       <React.Fragment>
-      <button onClick={this.handleToggle}>toggleHeader</button>
+      <button onClick={this.handleToggle}>Click to Toggle Header Below</button>
       <header>
         {this.state.visible ? <h1 ide="head">Counters R Fun</h1> : null}
       </header>
